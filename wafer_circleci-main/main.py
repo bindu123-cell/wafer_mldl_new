@@ -74,6 +74,7 @@ def trainRouteClient():
         folder_path = "Training_Batch_Files"
         # path = request.json['folderPath']
         if folder_path is not None:
+
             path = folder_path
 
             train_valObj = train_validation(path)  # object initialization
